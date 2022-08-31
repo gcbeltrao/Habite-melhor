@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-color: #ffdf58;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 80px;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 0.5rem;
+    border-top: 0;
+    width: 3em;
+    display: inline-block;
+    margin: 60px auto 20px auto;
+  }
+
+main{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: #ffdf58;
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    padding: 15px 0;
+    border-top: 2px solid;
+}
+
+footer p {
+    padding: 10px;
+}
+
+.logo{
+    height: 3.5rem;
+    padding-top: 10px;
+}
+
+.parcerias-container{
+    display: flexbox;
+    justify-content: center;
+}
+
+.section{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content{
+    width: 600px;
+    padding: 0 35px 10px 35px;
+}
+
+.names{
+    text-align: center;
+}
+
+.description{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px 0 20px 0;
+    margin-top: 0;
+    text-decoration: underline;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+.square-icons {
+border: 20px solid;
+border-radius: 5px;
+  }
